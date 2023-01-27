@@ -1,8 +1,8 @@
 ## Task distribution:
 
-- Parser – Саша
-- Base line – Рома
-- Github – Петр
+- Parser – Саша + Петр ; result check 28 Jan 20:00
+- Base line // data pre-processing – Рома ; till 28 Jan 20:00
+- Github – Петр ; 1/2 hour
 - Business solution part (une feuille de route de la suite du projet)
 - Presentation
 
