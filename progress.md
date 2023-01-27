@@ -1,4 +1,4 @@
-Task distribution:
+## Task distribution:
 
 Parser – Саша
 Base line – Рома
@@ -8,37 +8,39 @@ Presentation
 
 
 
-Progress:
+## Progress:
 
 Parser
 
 
 
-Remarks:
+## Remarks:
 Base line
 
 
 
-Remarks:
+## Remarks:
 Github
 
 
 
-Remarks:
+## Remarks:
 
 Business solution part
 
 
 
-Remarks:
+## Remarks:
 Presentation
 
 
 
-Remarks:
-References:
+## Remarks:
 
-https://habr.com/ru/post/553658/
-https://opendata.paris.fr/explore/dataset/comptages-routiers-permanents/export/?disjunctive.libelle&disjunctive.etat_trafic&disjunctive.libelle_nd_amont&disjunctive.libelle_nd_aval&sort=t_1h
+## References:
+
+[Временные ряды. Простые решения](https://habr.com/ru/post/553658/)
+
+[Dataset](https://opendata.paris.fr/explore/dataset/comptages-routiers-permanents/export/?disjunctive.libelle&disjunctive.etat_trafic&disjunctive.libelle_nd_amont&disjunctive.libelle_nd_aval&sort=t_1h)
 
 
