@@ -1,10 +1,10 @@
 ## Task distribution:
 
-Parser – Саша
-Base line – Рома
-Github – Петр
-Business solution part (une feuille de route de la suite du projet)
-Presentation
+- Parser – Саша
+- Base line – Рома
+- Github – Петр
+- Business solution part (une feuille de route de la suite du projet)
+- Presentation
 
 
 
