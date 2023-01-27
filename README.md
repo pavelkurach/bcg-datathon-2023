@@ -1,1 +1,1 @@
-# bcg-datathon-2023
+# BCG Datathon 2023
