@@ -1,0 +1,4 @@
+outs:
+- md5: 288cfba072f484acf2a65e04e59735d2
+  size: 488648
+  path: vacances_scolaires.csv
