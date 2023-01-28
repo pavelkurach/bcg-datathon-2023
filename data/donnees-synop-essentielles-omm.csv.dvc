@@ -1,0 +1,4 @@
+outs:
+- md5: cccd0b7863e36868fa569f90d063b67f
+  size: 4682740
+  path: donnees-synop-essentielles-omm.csv
