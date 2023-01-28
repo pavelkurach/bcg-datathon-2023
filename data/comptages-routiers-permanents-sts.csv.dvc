@@ -1,0 +1,4 @@
+outs:
+- md5: 552e8b7d7ae1c709716fde3794a653b2
+  size: 11741666
+  path: comptages-routiers-permanents-sts.csv
