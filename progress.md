@@ -20,6 +20,8 @@ My thoughts:
 - secondly we can explore some multi-output models cause they can take into account relationships between the target variables (it can give better results cause they are dependent in our case)   
 
 
+\underline{Question to ask tomorrow during atelier}
+
 
 
 
