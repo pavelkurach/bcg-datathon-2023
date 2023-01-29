@@ -7,6 +7,23 @@
 - Presentation -- Паша + Фат
 
 
+Questions: 
+
+1. Do we merge datasets ? In this case how should we handle missing target data in the 2nd dataset?
+
+2. How are we going to solve a Multi target regression problem? 
+
+My thoughts: 
+
+- firstly we should try to solve single regression problems using two approaches: direct (independent models) and chained (using first prediction as a feature for the second model). There are wrappers for these approaches. In this case we can merge all data (and try to handle the missing data problem for the chained approach) and then try and see results of separate data
+
+- secondly we can explore some multi-output models cause they can take into account relationships between the target variables (it can give better results cause they are dependent in our case)   
+
+
+<ins>Question to ask tomorrow during atelier</ins>
+
+-
+
 
 ## Progress:
 
@@ -14,28 +31,29 @@ Parser
 
 
 
-## Remarks:
-Base line
+Remarks:
+## Base line
 
 
 
-### Remarks:
-Github
+Remarks:
+
+
+## Business solution part
+
+Principal points:
+
+- maximize the number of shipments on difined period of time
+- minimize the cost 
+- minimize carbon emission across the delivery process
+
+
+Remarks:
+## Presentation
 
 
 
-### Remarks:
-
-Business solution part
-
-
-
-## Remarks:
-Presentation
-
-
-
-## Remarks:
+Remarks:
 
 ## References:
 
