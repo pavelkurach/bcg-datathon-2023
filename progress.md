@@ -57,8 +57,11 @@ $$Cost (OS_j) = \sum \dots$$
 $$\text{min} \sum_{j=1}^N Cost(OS_j)$$
 under constraints:
 $$\forall j\in[1,\dots, N] \text{Time} (OS_j) \in [4, 8] $$
-$$\forall s \in \text{Orders} \text{exist} j(s): s\in OS_{j(s)} $$
+$$\forall s \in \text{Orders} \text{exist} j(s): s \in OS_{j(s)} $$
 
+
+4.1. Вопрос -- мы знаем заказы заранее или нужно их предсказать. Доставлять то, что заказано или моделировать, что будет заказано? Перепрогонять алгоритм в случае новых заказов в течение недели?
+4.2. Как эту задачу опитимизации решать? Посмотреть, есть ли статьи. 
 Remarks:
 ## Presentation
 
