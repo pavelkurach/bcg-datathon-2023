@@ -27,7 +27,7 @@ My thoughts:
 
 ## Progress:
 
-Parser
+## Parser
 
 
 
@@ -47,7 +47,7 @@ Principal points:
 - minimize the cost 
 - minimize carbon emission across the delivery process
 
-
+1. Создаем граф так, чтобы ребра были улицами (отвечает за время преодоления этого маршрута). Граф зависит от времени.  
 Remarks:
 ## Presentation
 
