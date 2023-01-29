@@ -30,28 +30,29 @@ Parser
 
 
 
-## Remarks:
-Base line
+Remarks:
+## Base line
 
 
 
-### Remarks:
-Github
+Remarks:
+
+
+## Business solution part
+
+Principal points:
+
+- maximize the number of shipments on difined period of time
+- minimize the cost 
+- minimize carbon emission across the delivery process
+
+
+Remarks:
+## Presentation
 
 
 
-### Remarks:
-
-Business solution part
-
-
-
-## Remarks:
-Presentation
-
-
-
-## Remarks:
+Remarks:
 
 ## References:
 
