@@ -75,7 +75,6 @@ def plot_periodogram(ts, detrend='linear', ax=None):
     return ax
 
 
-
 def lagplot(x, y=None, shift=1, standardize=False, ax=None, **kwargs):
     from matplotlib.offsetbox import AnchoredText
     x_ = x.shift(shift)
@@ -142,7 +141,6 @@ def plot_lags(x,
     return fig
 
 
-
 class BoostedHybrid:
     def __init__(self, model_1, model_2):
         self.model_1 = model_1
@@ -185,7 +183,6 @@ class BoostedHybrid:
         return y_pred.unstack(self.stack_cols)
 
 
-
 def make_lags(ts, lags, lead_time=1, name='y'):
     return pd.concat(
         {
@@ -217,7 +214,7 @@ def create_multistep_example(n, steps, lags, lead_time=1):
     y = make_multistep_target(ts, steps, reverse=True)
     data = pd.concat({'Targets': y, 'Features': X}, axis=1)
     data = data.style.set_properties(['Targets'], **{'background-color': 'LavenderBlush'}) \
-                     .set_properties(['Features'], **{'background-color': 'Lavender'})
+        .set_properties(['Features'], **{'background-color': 'Lavender'})
     return data
 
 
