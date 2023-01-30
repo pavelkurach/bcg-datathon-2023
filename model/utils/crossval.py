@@ -1,4 +1,8 @@
 import pandas as pd
+import numpy as np
+from sklearn.model_selection import TimeSeriesSplit
+from loss import compute_one_target_loss
+
 
 def divide_by_targets(data):
     """Returns two copies with separated targets"""
@@ -16,8 +20,17 @@ def train_test_split(x, y, test_size):
 
     return train_x, train_y, test_x, test_y
 
-def crossval(x, y, kfolds):
-    pass
+def cross_val(model, x, y, n_splits = 5):
+    """Computes split cross validation for a model with RMSE loss and returns the average loss"""
+    tscv = TimeSeriesSplit(n_splits)
+    results = np.array([])
+
+    for train_index, val_index in tscv.split(x):
+        model.fit(x[train_index], y[train_index])
+        results.append(compute_one_target_loss(model.predict(x[val_index]), y[val_index]))
+
+    return results.mean()
+
 
 
 
