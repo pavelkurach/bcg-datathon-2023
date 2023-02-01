@@ -63,7 +63,7 @@ L'algorithme suivant propose une solution approximative :
 
     1. Definir les zones sur la base de l'equation suivante:
     Le nombre de livraisons effectué par un livreur = 
-    = Surface de la zone $\times$ densité des points de livraisons = 
+    = Surface de la zone $$\times$$ densité des points de livraisons = 
     = 5 heures / temps de trajet moyen entre deux livraisons 
 
 Le temps de trajet moyen entre deux livraisons se calcule grâce aux données historiques. Grâce à 
